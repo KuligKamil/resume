@@ -1,5 +1,7 @@
 # Resume
 
+Resume generator from html, css to pdf file 
+
 ## Config
 
   create and add .env file with 
@@ -12,4 +14,4 @@
 
 ## Run 
 
-    node index.js && open 'dist/Kamil Kulig resume.pdf'
+    pnpm dev

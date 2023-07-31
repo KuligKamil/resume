@@ -104,11 +104,14 @@ h3 {
   font-weight: normal;
 }
 .resume .base .about div {
-  line-height: 22px;
+  line-height: 24px;
 }
 .resume .base .contact div {
   line-height: 24px;
 }
+/* .resume .base .contact div {
+  line-height: 24px;
+} */
 .resume .base .contact div a:hover {
   color: #e07a5f;
 }
@@ -239,6 +242,9 @@ h3 {
   width: 10px;
   height: 10px;
   left: -2px;
+}
+.resume .func .work ul li:not(:first-of-type)::before, .resume .func .edu ul li:not(:first-of-type)::before {
+  margin-top: 3px;
 }
 .resume .func .work ul li:last-of-type, .resume .func .edu ul li:last-of-type {
   padding-bottom: 3px;
